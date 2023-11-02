@@ -1,0 +1,417 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.navbar {
+    background-color: transparent !important;
+    margin-top: 20px;
+}
+
+.dropdown-menu {
+    width: 150px;
+
+}
+
+.nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.dropdown-item img {
+    margin-right: 10px;
+
+}
+
+.login {
+    margin-left: -100px;
+}
+
+.custom-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav {
+    margin-left: 700px;
+    color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+h2 {
+    font-size: 100px;
+    text-align: left;
+    margin-left: 130px;
+}
+
+.p {
+    padding-top: 50px;
+    text-align: left;
+    margin-left: 130px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 200px;
+    margin-right: 340px;
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.btn-primary {
+    background-color: black;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black
+}
+
+.mt-3 {
+    margin-top: 40px;
+}
+
+
+.logos-container {
+    display: flex;
+    justify-content: left;
+    gap: 70px;
+    padding-top: 60px;
+    margin-left: 130px;
+}
+
+.logo1 {
+    height: 80%;
+}
+
+.logo2 {
+    margin-top: -10px;
+}
+
+.logo3 {
+    height: 80%;
+}
+
+.logo4 {
+    height: 90%;
+}
+
+.logodesktop {
+    width: 80%;
+    height: 80%;
+}
+
+.attribution {
+    text-align: center;
+}
+
+.button {
+    margin-left: 10px;
+}
+
+/* mobile css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile container */
+.mob-container {
+    background-color: #ffffff;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+/* Mobile header/navbar styles */
+.mob-header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.mob-navbar .mob-brand {
+    font-size: 24px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.mob-toggler {
+    background: none;
+    border: none;
+}
+
+.mob-toggler-icon {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+    position: relative;
+}
+
+.mob-toggler-icon::before,
+.mob-toggler-icon::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 30px;
+    background-color: #333;
+}
+
+.mob-toggler-icon::before {
+    top: -10px;
+}
+
+.mob-toggler-icon::after {
+    bottom: -10px;
+}
+
+/* Mobile navigation dropdown styles */
+
+.mob-navbar-collapse {
+    display: none;
+}
+
+.mob-navbar-nav {
+    list-style: none;
+}
+
+.mob-nav-item {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.mob-nav-link {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.mob-dropdown-menu {
+    display: none;
+    list-style: none;
+}
+
+.mob-dropdown-item {
+    padding: 10px 20px;
+}
+
+.mob-btn-register {
+    color: #fff;
+    background-color: #f47a60;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.mob-main {
+    padding: 20px;
+    text-align: center;
+}
+
+.mob-main-content {
+    position: relative;
+}
+
+.mob-hero-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.mob-main h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.mob-main p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.mob-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #3c8dbc;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.mob-btn-primary {
+    background-color: #3c8dbc;
+}
+
+.mobile-navbar {
+    position: relative;
+}
+
+.mob-toggler-icon {
+    position: absolute;
+    right: 20px;
+    top: 3.5%;
+    transform: translateY(-50%);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.overlay-content {
+    background: #fff;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    position: relative;
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.mob-navbar-collapse {
+    position: fixed;
+    top: 0;
+    right: -80%;
+    width: 80%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 1000;
+    transition: right 0.3s;
+    overflow-y: auto;
+}
+
+.offcanvas-backdrop {
+    background-color: rgba(0, 0, 0, 2);
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent;
+}
+
+.offcanvas.show .navbar-toggler-icon:before {
+    content: '\2715';
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    border: none;
+    z-index: 1;
+}
+
+.offcanvas-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+.submenu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.features-submenu li,
+.company-submenu li {
+    margin-left: 20px;
+}
+
+.login-item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.register-btn {
+    color: black;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 5px 10px;
+    margin-top: -10px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    width: 80%;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.custom-black-btn {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.mob-logo {
+    margin-right: 20px;
+}
+
+.mob-logo:last-child {
+    margin-right: 0;
+}
+
+
+@media (min-width: 768px) {
+    .mobile-only {
+        display: none;
+    }
+
+}

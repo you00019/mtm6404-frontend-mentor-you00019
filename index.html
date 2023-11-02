@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Snap - Make remote work</title>
+</head>
+
+<body>
+    <div class="d-none d-md-block">
+        <header class="container">
+            <!-- nav bar  -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Snap</a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                        aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Features<i class="bi bi-chevron-compact-up">
+                            </a></i>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"> <img
+                                            src="./images/icon-todo.svg"
+                                            alt="Todo Icon" width="20"
+                                            height="20">To do
+                                        List</a>
+
+                                </li>
+                                <li><a class="dropdown-item" href="#"><img
+                                            src="./images/icon-calendar.svg"
+                                            alt="Todo Icon" width="20"
+                                            height="20">Calendar
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#"><img
+                                            src="./images/icon-reminders.svg"
+                                            alt="Todo Icon" width="16"
+                                            height="16">
+                                        Reminders</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#"><img
+                                            src="./images/icon-planning.svg"
+                                            alt="Todo Icon" width="16"
+                                            height="16"
+                                            class="img-margin-right">
+                                        Planning</a>
+                                </li>
+                            </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#"
+                                    role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Company
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="#">History</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Our
+                                            Team
+                                        </a></li>
+                                    <li><a class="dropdown-item"
+                                            href="#">Blog</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link "
+                                    aria-disabled="true">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"
+                                    aria-disabled="true">About</a>
+                            </li>
+                            <li class="nav-item login">
+                                <a class="nav-link nav" href="#"
+                                    aria-disabled="true">Login</a>
+                            </li>
+                        </ul>
+                        <a class="nav-link btn buttonregister rounded-pill custom-btn"
+                            aria-disabled="true"
+                            style="background-color: white; color: black; border: 2px solid black; border-radius: 5px; padding: 10px 20px; margin-top:5px;">Register</a>
+            </nav>
+        </header>
+        <main>
+            <!-- the end of nav  -->
+            <div class="grid-container">
+                <div class="text-container">
+                    <div class="text-center mt-5">
+                        <h2>Make</h2>
+                        <h2>remote work</h2>
+
+                        <p class="p">Get your team in sync, no matter your
+                            location.
+                            Streamline
+                            processes, create team rituals, and watch
+                            productivity
+                            soar
+                        </p>
+                        <a href="#" class="btn btn-primary mt-5 button">Learn
+                            more</a>
+
+                        <!-- Logos container -->
+                        <div class="logos-container mt-3">
+                            <img src="./images/client-databiz.svg"
+                                alt="databiz logo " class="logo1">
+                            <img src="./images/client-audiophile.svg"
+                                alt="audio phile logo" class="logo2">
+                            <img src="./images/client-meet.svg" alt="meet logo"
+                                class="logo3">
+                            <img src="./images/client-maker.svg"
+                                alt="maker logo " class="logo4">
+                        </div>
+                    </div>
+                </div>
+                <img src="./images/image-hero-desktop.png" alt="databiz logo "
+                    class="logodesktop">
+            </div>
+            <div class="attribution">
+                Challenge by <a
+                    href="https://www.frontendmentor.io?ref=challenge"
+                    target="_blank">Frontend Mentor</a>.
+                Coded by <a href="#">Jia</a>.
+            </div>
+    </div>
+    <!-- mobile version  -->
+    <div class="mobile-only">
+        <div class="d-md-none">
+            <div class="mob-container">
+                <nav class="navbar navbar-expand-md">
+                    <a href="#" class="navbar-brand">Snap</a>
+                    <button class="navbar-toggler float-end" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#mobNav"
+                        aria-controls="mobNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+
+                <div class="offcanvas offcanvas-end custom-width" tabindex="-1"
+                    id="mobNav">
+                    <div class="offcanvas-header">
+                        <button type="button"
+                            class="btn-close text-reset float-end"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item toggle-item">
+                                <a class="nav-link" href="#">Features <span
+                                        class="dropdown-toggle"></span></a>
+                                <ul class="submenu">
+                                    <li><a class="dropdown-item" href="#"> <img
+                                                src="./images/icon-todo.svg"
+                                                alt="Todo Icon" width="20"
+                                                height="20">To do List</a></li>
+                                    <li><a class="dropdown-item" href="#"><img
+                                                src="./images/icon-calendar.svg"
+                                                alt="Todo Icon" width="20"
+                                                height="20">Calendar</a></li>
+                                    <li><a class="dropdown-item" href="#"><img
+                                                src="./images/icon-reminders.svg"
+                                                alt="Todo Icon" width="20"
+                                                height="20">Reminders</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#"><img
+                                                src="./images/icon-planning.svg"
+                                                alt="Todo Icon" width="20"
+                                                height="20">Planning</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item toggle-item">
+                                <a class="nav-link" href="#">Company <span
+                                        class="dropdown-toggle"></span></a>
+                                <ul class="submenu">
+                                    <li><a class="dropdown-item"
+                                            href="#">History</a></li>
+                                    <li><a class="dropdown-item" href="#">Our
+                                            Team</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="#">Blog</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item login-item">
+                                <a class="nav-link" href="#">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link register-btn"
+                                    href="#">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mob-main">
+            <div class="mob-main-content">
+                <img src="./images/image-hero-mobile.png" alt="Mobile Hero"
+                    class="mob-hero-img">
+                <h2 class="fs-1 fw-bold text-center">Make
+                    remote work</h2>
+                <p>Get your team in sync, no matter your location.
+                    Streamline processes, create team rituals, and watch
+                    productivity soar.</p>
+                <a href="#"
+                    class="mob-btn mob-btn-primary custom-black-btn">Learn
+                    more</a>
+
+                <div class="mob-logos">
+                    <img src="./images/client-databiz.svg" alt="Logo 1"
+                        class="mob-logo mr-3">
+                    <img src="./images/client-audiophile.svg" alt="Logo 2"
+                        class="mob-logo mr-3">
+                    <img src="./images/client-meet.svg" alt="Logo 3"
+                        class="mob-logo mr-3">
+                    <img src="./images/client-maker.svg" alt="Logo 4"
+                        class="mob-logo">
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </main>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js">
+    </script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-alpha3/dist/js/bootstrap.min.js">
+    </script>
+    <script src="script.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
